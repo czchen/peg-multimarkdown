@@ -1,15 +1,17 @@
 Source: multimarkdown
-Section: unknown
+Section: text
 Priority: extra
 Maintainer: ChangZhuo Chen <czchen@gmail.com>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
-Homepage: <insert the upstream URL, if relevant>
+Homepage: https://github.com/fletcher/peg-multimarkdown
 #Vcs-Git: git://git.debian.org/collab-maint/multimarkdown.git
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/multimarkdown.git;a=summary
 
 Package: multimarkdown
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Multimarkdown (MMD) markup converter
+ Multimarkdown (MMD, peg-multimarkdown) is a tool for converting Markdown
+ lightweight markup formatted documents into several output formats like HTML,
+ LaTeX, and ODT.
