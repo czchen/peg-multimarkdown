@@ -17,6 +17,7 @@ Description: Multimarkdown (MMD) markup converter
  LaTeX, and ODT.
 
 Package: multimarkdown-dbg
+Section: debug
 Architecture: any
 Depends: multimarkdown (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
 Description: Multimarkdown (MMD) markup converter (debug symbol)
