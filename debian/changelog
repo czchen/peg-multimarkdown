@@ -1,0 +1,5 @@
+multimarkdown (3.7.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- ChangZhuo Chen <czchen@gmail.com>  Wed, 01 May 2013 18:53:49 +0800
