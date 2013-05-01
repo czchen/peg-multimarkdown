@@ -15,3 +15,13 @@ Description: Multimarkdown (MMD) markup converter
  Multimarkdown (MMD, peg-multimarkdown) is a tool for converting Markdown
  lightweight markup formatted documents into several output formats like HTML,
  LaTeX, and ODT.
+
+Package: multimarkdown-dbg
+Architecture: any
+Depends: multimarkdown (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Description: Multimarkdown (MMD) markup converter (debug symbol)
+ Multimarkdown (MMD, peg-multimarkdown) is a tool for converting Markdown
+ lightweight markup formatted documents into several output formats like HTML,
+ LaTeX, and ODT.
+ .
+ This package contains debug symbols which are useful for debug.
