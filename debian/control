@@ -2,7 +2,7 @@ Source: multimarkdown
 Section: text
 Priority: extra
 Maintainer: ChangZhuo Chen <czchen@gmail.com>
-Build-Depends: debhelper (>= 8.0.0)
+Build-Depends: debhelper (>= 9.0.0)
 Standards-Version: 3.9.4
 Homepage: https://github.com/fletcher/peg-multimarkdown
 #Vcs-Git: git://git.debian.org/collab-maint/multimarkdown.git

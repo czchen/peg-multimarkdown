@@ -9,6 +9,8 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
+export DEB_CFLAGS_MAINT_APPEND=-Wall -O3 -include GLibFacade.h -I . -DMD_USE_GET_OPT=1 -D_GNU_SOURCE
+
 %:
 	dh $@ 
 
