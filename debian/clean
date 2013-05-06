@@ -37,3 +37,4 @@ peg-0.1.9/*.o
 *.perspectivev3
 
 multimarkdown
+documentation/manual.*
